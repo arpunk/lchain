@@ -1,0 +1,16 @@
+{application, 'lchain',
+ [{description, "Barebones blockchain example for LFE."},
+  {vsn, "0.0.1"},
+  {registered, []},
+  {applications,
+   [kernel,
+    stdlib,
+    crypto
+   ]},
+  {env, []},
+  {modules, []},
+
+  {contributors, ["Ricardo Lanziano"]},
+  {licenses, ["MIT"]},
+  {links, [{"GitHub", "https://github.com/arpunk/lchain.git"}]}
+ ]}.
